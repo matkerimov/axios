@@ -27,19 +27,19 @@
 // // 3. Вернуть все числа больше нуля. Аргумент - массив, результат - массив.
 
 // function positiveNumbers(array) {
-//     return array.filter(it = it > 0)
+//     return array.filter(it => it > 0)
 // }
 //
-// console.log( positiveNumbers(1,2,3,-1,-2,-3,4) )  // [1,2,3,4]
+// console.log( positiveNumbers([1,2,3,-1,-2,-3,4]) )  // [1,2,3,4]
 
 
 // // 4. Проверка треугольника, a,b и c - числа. Сумма углов треугольника всегда равна 180
 
 // function triangleCheck(a, b, c) {
-//     if (a + b + c = 180) {
-//         return true
+//     if (a + b + c === 180) {
+//         return 'true'
 //     }
-//     return false
+//     return 'false'
 // }
 //
 // console.log(triangleCheck(90, 45, 45))  // true
@@ -51,10 +51,11 @@
 // //     результат строка - 'max: n, min: n'
 
 // const highAndLow = (str) => {
-//     const array = str.split('')
+//     const array = str.split(' ')
 //     const max = Math.max(...array)
 //     const min = Math.min(...array)
-//     const result = 'max: ${max}, min: ${min}'
+//     const result = `max: ${max}, min: ${min}`
+//     return result
 // }
 //
 // console.log(highAndLow('10 15 5 25 100 15 30 1 20'))  // max: 100, min: 1
