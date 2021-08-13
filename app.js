@@ -2,19 +2,19 @@
 
 // // 1. Умножить все числа в массиве на n
 
-function mult(array, n) {
-  return array.map(it => it * n)
-}
-
-console.log(mult([1,2,3], 2))  // [2,4,6]
+// function mult(array, n) {
+//   return array.map(it => it * n)
+// }
+//
+// console.log(mult([1,2,3], 2))  // [2,4,6]
 
 
 
 // // 2. Циклом умножить все числа в массиве на n
 
-// const mult2 = {array, n} => {
+// const mult2 = (array, n) => {
 //     let result = []
-//     for (let i = 0, i < array.length(), i++) {
+//     for (let i = 0; i < array.length; i++) {
 //         result = [...result, array[i] * 2]
 //     }
 //     return result
