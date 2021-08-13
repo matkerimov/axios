@@ -107,10 +107,10 @@
 // // 9. Найти сумму чисел в массиве используя цикл
 
 // const sum2 = (array) => {
-//     const sum = 0
-//     for {let i = 0; i < array; i++} (
+//     let sum = 0
+//     for (let i = 0; i < array.length; i++) {
 //         sum += array[i]
-//     )
+//     }
 //     return sum
 // }
 //
@@ -120,18 +120,17 @@
 // // 10. Отсортировать массив по убыванию.
 
 // const sortingNums = (array) => {
-//     const array.sort(a, b => b - a)
-//     return array
+//     return array.sort((a, b) => a - b)
 // }
-
+//
 // console.log(sortingNums([5,10,1,25,35,100,15])) // [1,  5,  10, 15, 25, 35, 100]
 
 // // 11. Создать объект с полями name и lastName, на входе строка в виде 'Имя фамилия', на выходе объект
 
 // function createObj(str) {
-//     const arr = string.split(' ')
+//     const arr = str.split(' ')
 //     return {
-//         name: arr[0]
+//         name: arr[0],
 //         lastName: arr[1]
 //     }
 // }
