@@ -65,7 +65,7 @@
 // // 6. Найти сумму чисел в массиве
 
 // const sum = (array) => {
-//     array.reduce(acc, elem => acc + item, 0)
+//     return array.reduce((acc, elem) => acc + elem, 0)
 // }
 //
 // console.log( sum([10,30,10,25,25]) )  // 100
@@ -75,8 +75,10 @@
 // // 7. Округлить число до двух знаков после запятой
 
 // const round = function (number) {
-//     const roundedNum = toFixed(number)
-//     return number
+    // const roundedNum = number.toFixed(2)
+    // return roundedNum
+//    or | if | &&
+//     return number.toFixed(2)
 // }
 //
 // console.log(round(10.12345))  // 10.12
@@ -88,14 +90,14 @@
 //  //      на входе число, на выходе строка.
 
 // const checkNum = (num) => {
-//     if (num = 0) {
+//     if (num === 0) {
 //         return '0'
 //     } else if (num < 0) {
 //         return '-'
 //     }
 //     return '+'
 // }
-//
+
 // console.log(checkNum(15))  // +
 // console.log(checkNum(-15))  // -
 // console.log(checkNum(0))  // 0
